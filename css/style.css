@@ -1,0 +1,88 @@
+body {
+    padding-top: 70px;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    padding-bottom: 0;
+    background-color: rgb(31, 31, 31);
+}
+
+.ys-navbar {
+    background-color: rgb(31, 31, 31);
+    border-bottom:1px solid rgb(255, 255, 255);
+}
+
+.navbar-na a {
+    margin-left: 5px;
+}
+
+.navbar-nav a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.8em !important;
+    color: white !important;
+}
+
+.ce-title-line-black {
+	width: 12%;
+	height:2px;
+    margin-bottom: 1rem;
+	background-color:#000000;
+	margin:15px auto 5rem auto;
+}
+
+.ce-title-line-white {
+	width: 12%;
+	height:2px;
+    margin-bottom: 1rem;
+	background-color:#ffffff;
+	margin:15px auto 5rem auto;
+}
+
+.separator-list {
+	width: 12%;
+	height:2px;
+    margin-bottom: 1rem;
+	background-color:#6b6b6b;
+	margin:15px auto 35px auto;
+}
+
+#education {
+    background-color: rgb(31, 31, 31);
+}
+
+#experiences {
+    background-color: rgb(31, 31, 31);
+}
+
+.center-everything {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+  
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 0.1px solid rgb(255, 255, 255);
+  
+}
+
+.separator:not(:empty)::before {
+  margin-right: .55em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .55em;
+}
